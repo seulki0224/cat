@@ -6,40 +6,41 @@
 }
 .App-header {
   background-color: #282c34;
-  min-height:15vh;
+  min-height: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin); */
+  font-size: 20px;
   color: white;
   font-weight: bold;
 }
-.nav_menu{
+.nav_menu {
   padding: 10px 3px;
   margin: 20px 0;
 }
-.text_search{
+.text_search {
   max-width: 400px;
   display: inline-block !important;
 }
-.row img { 
+.row img {
   width: 250px;
   height: 250px;
   padding: 20px;
 }
-.catList_Detail:hover{
+.catList_Detail:hover {
   cursor: pointer;
 }
-.CatList_box{
+.CatList_box {
   width: 260px;
   height: 460px;
   background: rgba(240, 240, 240, 0.823);
-  display: inline-block; 
+  display: inline-block;
   margin: 40px;
   vertical-align: top;
 }
-.CatList_box:hover{ 
+.CatList_box:hover {
   cursor: pointer;
   background: rgba(99, 99, 99, 0.4);
   font-weight: bold;
@@ -48,7 +49,7 @@
   opacity: 0.3;
   transition: opacity 0.9s;
 }
-.tagList span{
+.tagList span {
   font-size: 0.6em;
   background: white;
   display: inline-block;
